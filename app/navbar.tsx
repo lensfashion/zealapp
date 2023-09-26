@@ -7,19 +7,19 @@ import Image from "next/image";
 import Container from "./container";
 
 export default function Navbar(props: any) {
-  const menu = [
-    {
-      label: "Home",
-      href: "/"
-    },
-    {
-      label: "About",
-      href: "/about"
-    },
-    {
-      label: "Contact",
-      href: "/contact"
-    }
+  const menu: any[] = [
+    // {
+    //   label: "Home",
+    //   href: "/"
+    // },
+    // {
+    //   label: "About",
+    //   href: "/about"
+    // },
+    // {
+    //   label: "Contact",
+    //   href: "/contact"
+    // }
   ];
 
   const mobilemenu = [...menu];
