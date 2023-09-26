@@ -40,7 +40,7 @@ const CardGrid = () => (
         <section className="mb-32">
             <div className="grid gap-6 lg:grid-cols-3">
                 {cards.map((card, index) => (
-                <Card key={index} />
+                    <Card key={index} />
                 ))}
             </div>
         </section> 
