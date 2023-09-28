@@ -5,8 +5,7 @@ import Container from '@/app/container';
 
 const Card = () => (
   <div
-    className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat 
-    shadow-lg dark:shadow-black/20 bg-[50%] w-3/4 h-3/4"
+    className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]"
     data-te-ripple-init data-te-ripple-color="dark">
     <div
       className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed bg-[hsla(0,0%,0%,0.3)]">
@@ -35,7 +34,7 @@ const Card = () => (
 
 const CardGrid = () => (
   <Container>
-    <div className="grid gap-6 lg:grid-cols-4">
+    <div className="grid gap-6 lg:grid-cols-3 flex justify-center">
       <Card />
       <Card />
       <Card />

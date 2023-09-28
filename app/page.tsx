@@ -5,13 +5,13 @@ import Hero from './components/hero'
 import Features from './features/page'
 
 export default function Home() {
-  
+
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-12">
-    <Hero />
-    {/* <FlipCard />      */}
-    <CardGrid />
-    <Features />
+    <div className="flex min-h-screen flex-col items-center justify-between">
+      <Hero />
+      {/* <FlipCard />      */}
+      <CardGrid />
+      <Features />
     </div>
   )
 }

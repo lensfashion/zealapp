@@ -13,31 +13,31 @@ export default function Navbar(props: any) {
 
   // Hide the logo on the main page
   if (isMainPage) {
-    return null; 
+    return null;
   }
 
   return (
     <Container>
       <nav>
         <>
-        <div className="flex flex-wrap justify-between md:flex-nowrap md:gap-10">
-          <div className="flex w-full items-center justify-between md:w-auto">
-            <Link href="/">            
-            <Image
-              src="/pictoZeal.jpg"
-              alt="logo"
-              width={50}
-              height={50}
-              className="w-10 h-10 rounded-full"
-            />     
-            </Link>  
-            <Link href="/">           
+          <div className="flex flex-wrap justify-center md:flex-nowrap md:gap-10">
+            <div className="flex w-full items-center justify-between md:w-auto">
+              <Link href="/">
+                <Image
+                  src="/pictoZeal.jpg"
+                  alt="logo"
+                  width={50}
+                  height={50}
+                  className="w-10 h-10 rounded-full"
+                />
+              </Link>
+              <Link href="/">
                 <span className="block text-center">
                   PictoZeal
                 </span>
-            </Link>
-          </div>        
-        </div>
+              </Link>
+            </div>
+          </div>
         </>
       </nav>
     </Container>
