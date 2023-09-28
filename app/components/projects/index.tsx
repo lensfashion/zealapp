@@ -1,16 +1,6 @@
 import React from 'react';
 import FlipCard from '../flipCard';
 
-const cards = [
-  <FlipCard />,
-  <FlipCard />,
-    <FlipCard />,
-    <FlipCard />,
-    <FlipCard />,
-    <FlipCard />,
-];
-
-
 const Card = () => (
     <div
     className="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]"
@@ -39,9 +29,12 @@ const CardGrid = () => (
     <div className="container my-12 mx-auto md:px-6">
         <section className="mb-32">
             <div className="grid gap-6 lg:grid-cols-3">
-                {cards.map((card, index) => (
-                    <Card key={index} />
-                ))}
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
             </div>
         </section> 
     </div>
