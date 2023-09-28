@@ -2,6 +2,8 @@ import FlipCard from './components/flipCard'
 import CardGrid from './components/projects'
 import Hero from './components/hero'
 
+import Features from './features/page'
+
 export default function Home() {
   
   return (
@@ -9,6 +11,7 @@ export default function Home() {
     <Hero />
     {/* <FlipCard />      */}
     <CardGrid />
+    <Features />
     </div>
   )
 }
