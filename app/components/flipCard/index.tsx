@@ -10,10 +10,6 @@ const FlipCard = () => {
     setIsFlipped(!isFlipped);
   };
 
-  const handleTouchStart = () => {
-    setIsFlipped(!isFlipped);
-  };
-
   return (
     <div className="flex justify-center">
       <div className="w-[300px] h-[400px] bg-transparent cursor-pointer group perspective" onClick={handleClick}>
@@ -31,7 +27,8 @@ const FlipCard = () => {
           alt=""        
           src="/before.jpg"
           width={300}
-          height={400}     
+          height={400}   
+          loading='lazy'  
         />
         </div>
       </div>
