@@ -31,8 +31,8 @@ const Features = () => {
           <h5 className="mb-4 text-lg font-bold">Personalized Selections</h5>
           <p className="text-neutral-500 dark:text-neutral-300">
             Your creativity knows no bounds! You can take the reins and select
-            the dress and setting of your choice. Whether it's a fairy-tale
-            theme or a rustic backdrop, your vision becomes reality with our
+            the dress and setting of your choice. Whether its a fairy-tale theme
+            or a rustic backdrop, your vision becomes reality with our
             user-friendly intake form
           </p>
         </div>
