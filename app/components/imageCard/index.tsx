@@ -25,7 +25,7 @@ const ImageCard = () => {
                     </h5>
                     <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
                         Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        bulk of the cards content.
                     </p>
                     <a href="/superhero" data-te-ripple-init data-te-ripple-color="light"
                         className="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white bg-a-color
