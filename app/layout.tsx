@@ -1,10 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import Navbar from './navbar'
 import Footer from './components/footer'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'PictoZeal',
@@ -18,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      {/* <body className="text-color bg-bg-color"> */}
         <div>
           <Navbar />
 
@@ -26,7 +24,7 @@ export default function RootLayout({
           <Footer />
 
         </div>
-      </body>
+      {/* </body> */}
     </html>
   );
 }

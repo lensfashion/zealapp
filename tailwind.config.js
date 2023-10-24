@@ -30,15 +30,17 @@ module.exports = {
     './app/page.tsx'
   ],
   theme: {
+    colors: {
+    'color': 'var(--text)',
+    'bg-color': 'var(--background)',
+    'p-color': 'var(--primary)',
+    's-color': 'var(--secondary)',
+    'a-color': 'var(--accent)',
+    },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        screens: {
+       screens: {
             'hover-hover': {'raw': '(hover: hover)'},
-        }
-      },
+          }
     },
   },
   plugins: [

@@ -17,14 +17,27 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer base {
+  :root {
+    --text: #4d0202;
+    --background: #EADFDF;
+    --primary: #F0AAAA;
+    --secondary: #F3B496;
+    --accent: #35d5ba;
+  }
+
+  .dark {
+    --text: #fdb4b4;
+    --background: #050505;
+    --primary: #800f0f;
+    --secondary: #df90fe;
+    --accent: #2acbb0;
+  }
+}
+
+.border-y-transparent {
+  border-top-color: transparent !important;
+  border-bottom-color: transparent !important;
 }
 
 .zoom:hover img {

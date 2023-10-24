@@ -15,20 +15,21 @@ const Hero = () => {
           <div className="container px-12 mx-auto">
             <div className="grid flex justify-center items-center gap-0 lg:grid-cols-2">
               <div className="lg:mb-0">
-                <div className="w-full rounded-lg shadow-lg flex justify-center items-center">
+                <div className="w-full flex justify-center items-center">
                   <Image
                     src="/pictozeal.jpg"
                     alt="logo"
                     width={300}
                     height={300}
+                    className="rounded-full shadow-lg"
                   />
                 </div>
               </div>
               <div className="mt-12 lg:mt-0">
-                <h1 className="mb-12 text-2xl font-bold tracking-tight text-[hsl(218,81%,95%)] md:text-6xl xl:text-7xl">
+                <h1 className="mb-12 text-2xl font-bold md:text-6xl xl:text-7xl">
                   A new form of photography
                 </h1>
-                <p className="text-lg text-[hsl(218,81%,95%)]">
+                <p className="text-lg text-1xl">
                   Bringing your imagination to life!
                 </p>
               </div>

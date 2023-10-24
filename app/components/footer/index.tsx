@@ -6,18 +6,17 @@ const Footer = () => {
     <Container>
       <footer
         className="flex flex-col items-center text-center lg:text-left">
-        <div className="container p-6 text-neutral-800 dark:text-neutral-200">
+        <div className="p-6 flex justify-center">
           <div className="grid gap-4 lg:grid-cols-2">
             <div className="mb-6 md:mb-0">
-              <h5 className="mb-2 font-medium uppercase">Footer text</h5>
-
               <p className="mb-4">
+                Footer text
               </p>
             </div>
 
-            <div className="mb-6 md:mb-0 text-right">
-              <a href="https://www.instagram.com/pictozeal/" className="mr-9 text-neutral-800 dark:text-neutral-200">
-                <div className="mb-2 font-medium flex items-center">
+            <div className="mb-6 md:mb-0">
+              <a href="https://www.instagram.com/pictozeal/" className="mr-9 text-neutral-800">
+                <div className="mb-4 flex items-center">
                   Follow us on Instagram &nbsp;
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
